@@ -1,15 +1,16 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router';
-import App from './App.vue'
+import { init } from '@cdlab996/monitor-sdk';
+import './style.css'
+import App from './App'
 import Page1 from './pages/Page1.vue';
 import Page2 from './pages/Page2.vue';
 import Page3 from './pages/Page3.vue';
-import { init } from 'monitor-sdk';
 
 const routes = [
   { path: '/page1', component: Page1 },
   { path: '/page2', component: Page2 },
-  { path: '/page3', component: Page3 }, 
+  { path: '/page3', component: Page3 },
 ]
 
 init({
@@ -30,5 +31,3 @@ const router = createRouter({
 const app = createApp(App);
 app.use(router)
 app.mount('#app')
-
-

@@ -1,5 +1,5 @@
 <script setup  name="page1">
-import { tracker } from 'monitor-sdk';
+import { tracker } from '@cdlab996/monitor-sdk';
 </script>
 
 <template>

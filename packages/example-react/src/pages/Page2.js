@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { errorCaptcher } from 'monitor-sdk';
+import { errorCaptcher } from '@cdlab996/monitor-sdk';
 
 const Index = () => {
   const [show, setShow] = useState(false);

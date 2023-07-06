@@ -1,5 +1,5 @@
 import React from 'react';
-import { tracker } from 'monitor-sdk';
+import { tracker } from '@cdlab996/monitor-sdk';
 
 const Index = () => {
   return (

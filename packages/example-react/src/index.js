@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { HashRouter, BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import { init } from 'monitor-sdk';
+import { init } from '@cdlab996/monitor-sdk';
 
 init({
   appId: 'react0001', // appId

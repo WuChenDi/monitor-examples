@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { errorCaptcher } from 'monitor-sdk';
+import { errorCaptcher } from '@cdlab996/monitor-sdk';
 
 export default {
   data() {

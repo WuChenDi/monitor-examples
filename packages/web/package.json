@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@cdlab996/monitor-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
